@@ -12,7 +12,7 @@ namespace Teht01b
         {
             //Ask a number
             int number;
-            Console.Write("Give a number!! >");
+            Console.Write("Anna numero >");
             string line = Console.ReadLine(); // "1"
             bool result = int.TryParse(line,out number); // "1" --> 1
             if (result == true)
