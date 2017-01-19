@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teht09", "teht09\Teht09.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teht10", "Teht10\Teht10.csproj", "{B0EC2331-3AFC-47B1-AAFB-4676CE89968B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teht11", "Teht11\Teht11.csproj", "{22EB5F0E-BA34-4ED2-A9E3-4008966BB79D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{B0EC2331-3AFC-47B1-AAFB-4676CE89968B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0EC2331-3AFC-47B1-AAFB-4676CE89968B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0EC2331-3AFC-47B1-AAFB-4676CE89968B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22EB5F0E-BA34-4ED2-A9E3-4008966BB79D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22EB5F0E-BA34-4ED2-A9E3-4008966BB79D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22EB5F0E-BA34-4ED2-A9E3-4008966BB79D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22EB5F0E-BA34-4ED2-A9E3-4008966BB79D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
