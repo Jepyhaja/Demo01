@@ -10,18 +10,23 @@ namespace Teht12
     {
         static void Main(string[] args)
         {
-            int[] luvut;
-            
 
-            for (int i=0; i<5; i++)
+            int luku;
+            int[] luvut = new int[5];
+
+            for (int i=0; i<=4; i++) // laitetaan lukujen kyselylle looppi pyörii 5 kertaa.
             {
-                Console.WriteLine("Anna kokonaisluku");
-                string line = Console.ReadLine();
+                Console.WriteLine("Anna kokonaisluku"); //haetaan luvut
+                string line = Console.ReadLine();      
+                luku = int.Parse(line);                 //parsitaan kokonaisluvuksi
+                luvut[i] = luku;                        //sijoitetaan kokonaisluku luvut[i] lokeroon, i määrittyy loopissa.
                 
-
-
             }
+            for (int j = 4; j >= 0; j--)                //käänteinen looppi tulostukseen
+            {
 
+                Console.Write(luvut[j]);                // luvut[j] tulostus j määräytyy loopissa
+            }
         }
     }
 }

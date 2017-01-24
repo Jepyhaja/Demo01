@@ -29,7 +29,7 @@ namespace Teht02
 
             if (luku >= 10 && luku <= 12) { Console.WriteLine("Arvosana 5"); };
 
-            if (luku < 0 || luku > 12) { Console.WriteLine("Pistemaarassa on jotain pielessa."); } // siltä varalta että syötetään virheellinen pistemäärä.
+            if (luku < 0 || luku > 12) { Console.WriteLine("Something is fucky."); } // siltä varalta että syötetään virheellinen pistemäärä.
 
         }
     }

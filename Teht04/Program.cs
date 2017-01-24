@@ -13,8 +13,8 @@ namespace Teht04
             int ika;
 
             Console.Write("Anna ikasi > ");
-            string syote = Console.ReadLine(); // luetaan käyttäjän syöte
-            ika = int.Parse(syote); //parsitaan syöttestä luku
+            string line = Console.ReadLine(); 
+            ika = int.Parse(line); 
 
             if (ika < 18) { Console.WriteLine("ALAIKAINEN!"); }
             if (ika >= 18 && ika <= 65) { Console.WriteLine("aikuinen!"); }

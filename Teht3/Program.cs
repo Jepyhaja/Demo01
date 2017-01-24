@@ -13,16 +13,16 @@ namespace Teht3
             int luku1, luku2, luku3, summa, keskiarvo;
             
             Console.Write("Anna ensimmainen luku > ");
-            string syote = Console.ReadLine(); // luetaan käyttäjän syöte
-            luku1 = int.Parse(syote); //parsitaan syöttestä luku
+            string line = Console.ReadLine(); // luetaan käyttäjän syöte
+            luku1 = int.Parse(line); //parsitaan syöttestä luku
 
             Console.Write("Anna toinen luku > ");
-            syote = Console.ReadLine(); // luetaan käyttäjän syöte
-            luku2 = int.Parse(syote); //parsitaan syöttestä luku
+            line = Console.ReadLine(); // luetaan käyttäjän syöte
+            luku2 = int.Parse(line); //parsitaan syöttestä luku
 
             Console.Write("Anna kolmas luku > ");
-            syote = Console.ReadLine(); // luetaan käyttäjän syöte
-            luku3 = int.Parse(syote); //parsitaan syöttestä luku
+            line = Console.ReadLine(); // luetaan käyttäjän syöte
+            luku3 = int.Parse(line); //parsitaan syöttestä luku
 
             summa = (luku1 + luku2 + luku3);
             keskiarvo = (summa / 3);

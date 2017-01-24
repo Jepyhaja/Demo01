@@ -30,7 +30,7 @@ namespace Teht01b
 
             else
             {
-                Console.WriteLine("JOO EI MENNY PUTKEE.");
+                Console.WriteLine("Eiku se numero, ANNA NUMERO");
             }
 
         }
